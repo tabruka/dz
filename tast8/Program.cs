@@ -4,7 +4,7 @@ int start = 1;
 Console.WriteLine("Введите число и мы найдем все четные от 1 до Вашего введенного числа");
 int N = int.Parse(Console.ReadLine());
 
-while (start < N)
+while (start <= N)
 {
     if(start % 2 == 0)
     {
